@@ -1,0 +1,14 @@
+// import logo from './logo.svg';
+import './App.css';
+import React from 'react';
+// import Greet from './components/Greeet';
+import TodoApp  from './components/todo';
+function App() {
+  return (
+    <div className="App">
+    <TodoApp/>
+    </div>
+  );
+}
+
+export default App;
